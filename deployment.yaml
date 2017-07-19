@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/container-engine-174201/gcp-repo:962e4d9fef693f8df6309523d2e20b767dd933c0
+        image: gcr.io/container-engine-174201/gcp-repo:latest
         ports:
         - containerPort: 5000
