@@ -6,5 +6,6 @@ MAINTAINER Matthew Brainard (matthew.brainard@gmail.com)
 EXPOSE 5000
 
 RUN pip install --no-cache-dir setuptools wheel
-
-CMD ["python", "app/hello-world.py"]
+ADD . /app
+WORKDIR /app
+CMD ["python", "hello-world.py"]
